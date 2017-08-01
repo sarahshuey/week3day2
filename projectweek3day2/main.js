@@ -20,7 +20,7 @@ customers.results.forEach(function(person) {
 <img class = 'pics'src="${person.picture.large}">
 <p class = 'name'> ${person.name.first} ${person.name.last}
 </p>
-<p class = 'email'> ${person.email}>
+<p class = 'email'> ${person.email}
 </p>
 <div class = 'fulladd'>
 <p>${person.location.street}

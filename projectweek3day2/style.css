@@ -1,4 +1,44 @@
+header{
+  text-align: center;
+}
 .container{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+}
+.article{
+  min-width: 240px;
+}
+.pics{
+  width: 270px
+}
+.custbox{
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+.name{
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: solid 1px green;
+  font-family: 'Cabin', sans-serif;
+}
+.email{
+  color: silver;
+  padding-bottom: 10px;
+}
+.fulladd{
+  line-height: 2px;
+  color: gray;
+  padding-bottom: 10px;
+}
+.ss{
+  color: green;
+  filter:blur(3px)
+}
+.ss:hover{
+  filter:none;
 }
